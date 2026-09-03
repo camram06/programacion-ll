@@ -7,7 +7,7 @@ else:
         print("ERROR: ¡El precio del producto no puede estar vacio!")
     else:
         if precio_producto <= 0:
-            print("ERROR: ¡El precio del producto no puede ser menor o igual a cero!")
+            print("ERROR: ¡¡El precio del producto no puede ser menor o igual a cero!")
         else:
             descuento_producto = float(input("Ingrese el descuento del producto: "))
             if descuento_producto < 0 and descuento_producto > precio_producto:
