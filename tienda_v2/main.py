@@ -1,3 +1,6 @@
+cantidad_productos = input("Ingrese cuantos productos hay en la compra: ")
+cantidad_productos = int(cantidad_productos)
+
 nombre_producto = input("Ingrese el nombre del producto: ")
 if nombre_producto == "":
     print("ERROR: ¡El nombre del producto no puede estar vacio!")
