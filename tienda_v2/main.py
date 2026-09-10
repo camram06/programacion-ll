@@ -6,7 +6,7 @@ for i in range (cantidad_productos):
     if nombre_producto == "":
         print("ERROR: ¡El nombre del producto no puede estar vacio!")
     else:
-        precio_producto = input(f"Ingrese el precio del producto: ")
+        precio_producto = input(f"Ingrese el precio del producto {i}: ")
         if precio_producto == "":
             print("ERROR: ¡El precio del producto no puede estar vacio!")
         else:
