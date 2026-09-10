@@ -29,4 +29,4 @@ for i in range (cantidad_productos):
                         print(f"El producto ingresado es: {nombre_producto} y el precio a pagar es: {total_producto} pesos.")
                         total_compra = total_compra + total_producto
 
-print("El total a pagar es: {total_compra}")
+print(f"El total a pagar es: {total_compra}")
